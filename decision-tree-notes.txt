@@ -1,6 +1,36 @@
 1. Begin with training dataset, which should have some feature variables and classification or regression output.
+<<<<<<< HEAD
 2. Determine the best faeture in the dataset to split the data on; more on how we define feature later.
 3. Split the data into subsets that contain the correct values for this best feature. This splitting basically 
 defines a node on the tree i.e node is a splitting point based on a certain feature from our data.
 
 4. Recursively generate new tree nodes by using the subset of data created from step3.
+=======
+
+2. Determine the best faeture in the dataset to split the data on; more on how we define feature later.
+
+3. Split the data into subsets that contain the correct values for this best feature. This splitting basically 
+defines a node on the tree i.e node is a splitting point based on a certain feature from our data.
+
+4. Recursively generate new tree nodes by using the subset of data created from step3.
+
+
+
+# what is the entropy
+> In the most layman terms, entropy is nothing but the measure of disorder. or you can also call it 
+measure  of purity / impurity.
+
+> more the uncertainty more is entropy and vice versa.
+> For a 2 class problem the min entropy ia 0 and the max is 1 when the both class is the same number.
+> For more than classes the min entropy is 0 but the max can be greater than 1.
+> both log2 or loge can be used to calculate entropy. 
+
+
+
+# Information Gain
+
+> Information gain , is a metric used to train Decision Trees. Specifically, this metric measures
+the quality of a split.
+> The Information gain is based on the decrease in entropy after a data-set is sploit on an attribute.
+> Constructing a decision tree is all about finding attribute that returns teh highest Information gain.
+>>>>>>> e651180 (first commit)
